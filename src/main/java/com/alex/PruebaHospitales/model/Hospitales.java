@@ -11,6 +11,11 @@ public class Hospitales {
 		this.ejeY = ejeY;
 	}
 
+	@Override
+	public String toString() {
+		return "Hospital [nombre=" + nombre + ", Eje X=" + ejeX + ", Eje Y=" + ejeY + "]";
+	}
+
 
 
 }
