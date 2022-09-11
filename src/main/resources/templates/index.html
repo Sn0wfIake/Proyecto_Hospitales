@@ -1,0 +1,25 @@
+
+
+<body>
+<div class="container">
+	<div class="row">
+	     <div>
+		<h1>Pasame 2 coordenadas X e Y</h1>
+	     </div>		
+         <form th:action="@{ubicacion}" th:object="${coordenada}" method="get">
+	      <div>
+		<label>Coordenada X</label>
+		<input type="text" id="ejeX" class="form-control" name="ejeX" >	
+	      </div>
+	      <div>
+		<label>Coordenada Y</label>
+		<input type="text" id="ejeY" class="form-control" name="ejeY" >
+	      </div>
+		</br>
+	       <div>
+		<input type="submit" value="Enviar" />
+	       </div>
+	   </form>
+	</div>
+</div>
+</body>
